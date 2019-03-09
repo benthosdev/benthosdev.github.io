@@ -1,0 +1,61 @@
+/*!
+ * Start Bootstrap - Small Business (https://startbootstrap.com/template-overviews/small-business)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-small-business/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+  font-family: "open sans", sans-serif;
+  background-color: #2d7bb9;
+}
+
+.bg-dark {
+  background-color: #0f2e52 !important;
+}
+
+.bg-secondary {
+  background-color: #286ba1 !important;
+}
+
+.bg-tertiary {
+  background-color: #245d8b !important;
+}
+
+.bg-quarternary {
+  background-color: #21527a !important;
+}
+
+.bg-quinary {
+  background-color: #1a3e68 !important;
+}
+
+.bg-senary {
+  background-color: #113661 !important;
+}
+
+.btn-primary {
+  background-color: rgb(18, 185, 116) !important;
+  border-color: rgb(18, 185, 116) !important;
+}
+
+.btn-primary:hover {
+  background-color: rgb(18, 151, 96) !important;
+  border-color: rgb(18, 151, 96) !important;
+}
+
+.btn-love {
+  color: #fff;
+  background-color: rgb(197, 40, 113);
+  border-color: rgb(197, 40, 113);
+}
+
+.btn-love:hover {
+  color: #fff;
+  background-color: rgb(156, 27, 87);
+  border-color: rgb(156, 27, 87);
+}
+
+.card {
+  background-color: #f3f3f3;
+  border-color: #f3f3f3;
+}
