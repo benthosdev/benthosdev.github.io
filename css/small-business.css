@@ -6,7 +6,14 @@
 body {
   padding-top: 56px;
   font-family: "open sans", sans-serif;
+}
+
+.sea {
   background-image: linear-gradient( #2d7bb9, #0f2e52);
+}
+
+.sea-bed {
+  background: #0f2e52;
 }
 
 .bg-dark {
