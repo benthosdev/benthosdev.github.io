@@ -96,18 +96,17 @@
       </div>
       <div class="col-lg-7">
         <pre><code class="p-3 rounded yaml">input:
-  type: kafka_balanced
   kafka_balanced:
     addresses: [ TODO ]
     topics: [ foo, bar ]
     consumer_group: foogroup
+
 pipeline:
   processors:
-  - type: jmespath
-    jmespath:
+  - jmespath:
       query: '{ message: @, meta: { link_count: length(links) } }'
+
 output:
-  type: s3
   s3:
     bucket: TODO
     path: "${!metadata:kafka_topic}/${!json_field:message.id}.json"</code></pre>
