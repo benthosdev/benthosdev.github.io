@@ -106,8 +106,12 @@
     addresses: [ TODO ]
     topics: [ foo, bar ]
     consumer_group: foogroup
+    batching:
+      count: 10
+      period: '100ms'
 
 pipeline:
+  threads: 4
   processors:
   - jmespath:
       query: '{ message: @, meta: { link_count: length(links) } }'
