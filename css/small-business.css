@@ -20,9 +20,13 @@ body {
   background-color: #0f2e52 !important;
 }
 
+.btn {
+  font-weight: bold;
+}
+
 .btn-primary {
-  background-color: rgb(18, 185, 116) !important;
-  border-color: rgb(18, 185, 116) !important;
+  background-color: rgb(18, 165, 104) !important;
+  border-color: rgb(18, 165, 104) !important;
 }
 
 .btn-primary:hover {
